@@ -19,6 +19,8 @@ interface ILocation {
     street: string
     number: number
     zipcode: number
+    state: string
+    city: string
 }
 
 class Pearson {
@@ -27,6 +29,7 @@ class Pearson {
     private work: string 
     private email: string  
     private phone: string
+
     private location: ILocation
 
     private platforms: IPlatform[]
@@ -48,7 +51,7 @@ class Pearson {
         this.work = work || "JavaScript Developer"
         this.email = email || "jadosn44.santos@gmail.com"
         this.phone = phone || "(48) 99932-8092"
-        this.location = location || { street: "Almirante Carlos da Silveira Carneiro", number: 394, zipcode: 88025350 }
+        this.location = location || { street: "Almirante Carlos da Silveira Carneiro", number: 394, zipcode: 88025350,state:"Santa Catarina",city:"Florianópolis" }
         this.platforms = platforms || [{ name: "Github", url: "http://github.com/jadson179" }, { name: "Linkedin", url: "https://gist.github.com/jadson179/www.linkedin.com/in/jadson-santos-a9aa9b145" }, { name: "porfolio", url: "http://jadsonsantos.com" }]
         this.formations = formations || [{ name: "Analise e Desenvolvimento de Sistemas ", status: "Cursando" }, { name: "Curso Superior de Tecnologia em Gestão da Tecnologia da Informação", status: "Concluído" }, { name: "Ensino Médio", status: "Concluído" }]
         this.technologies = technologies || ["JavaScript", "Mysql", "React", "ReactNative", "Expo", "Postgress", "Knex", "Java", "Nmap", "Docker", "Docker-Compose", "Bash", "Linux", "MacOS", "Windows", "Git", "Github", "Bitbucket", "SSH", "FTP", "VNC", "HTML 5", "CSS3", "Nodejs", "REST API", "Express", "SQL", "Markdown", "Material Design", "Font Awesome", "Sequelize ORM", "UML", "Zabbix", "Network", "Grafana", "Python"]
@@ -130,5 +133,6 @@ class Pearson {
         return this.organizations
     }
 }
+
 
 export default Pearson;

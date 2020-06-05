@@ -14,6 +14,9 @@ Pearson {
   location: {
     state: 'Santa Cantarina',
     city: 'Florianopolis',
+    state: 'Santa Catarina',
+    city: 'Florianópolis'
+
   },
   platforms: [
     { name: 'Github', url: 'http://github.com/jadson179' },
