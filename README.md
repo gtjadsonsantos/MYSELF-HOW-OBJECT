@@ -12,11 +12,8 @@ Pearson {
   email: 'jadosn44.santos@gmail.com',
   phone: '(48) 99932-8092',
   location: {
-    state: 'Santa Cantarina',
-    city: 'Florianopolis',
     state: 'Santa Catarina',
     city: 'Florianópolis'
-
   },
   platforms: [
     { name: 'Github', url: 'http://github.com/jadson179' },
