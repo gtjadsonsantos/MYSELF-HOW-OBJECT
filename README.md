@@ -19,7 +19,7 @@ Pearson {
     { name: 'Github', url: 'http://github.com/jadson179' },
     {
       name: 'Linkedin',
-      url: 'https://gist.github.com/jadson179/www.linkedin.com/in/jadson-santos-a9aa9b145'
+      url: 'www.linkedin.com/in/jadson-santos-a9aa9b145'
     },
     { name: 'porfolio', url: 'http://jadsonsantos.com' }
   ],
