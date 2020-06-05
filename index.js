@@ -93,5 +93,5 @@ var Pearson = /** @class */ (function () {
     };
     return Pearson;
 }());
-console.log(new Pearson());
+
 exports["default"] = Pearson;

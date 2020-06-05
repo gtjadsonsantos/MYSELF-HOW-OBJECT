@@ -1,14 +1,25 @@
 {
-  "name": "jadson-how-object",
+  "name": "myself-how-object",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build":"tsc index.ts"
+    "build": "tsc index.ts"
   },
   "dependencies": {},
   "devDependencies": {
     "ts-node": "^8.10.2",
     "typescript": "^3.9.5"
-  }
+  },
+  "description": "🧡 💛 💚  Local to if turn one object JavaScript 💙 💜 🖤",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadson179/myself-how-object.git"
+  },
+  "keywords": ["object","javascript","computer","poo","memory"],
+  "author": "@jadson179",
+  "bugs": {
+    "url": "https://github.com/jadson179/myself-how-object/issues"
+  },
+  "homepage": "https://github.com/jadson179/myself-how-object#readme"
 }

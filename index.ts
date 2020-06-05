@@ -131,6 +131,4 @@ class Pearson {
     }
 }
 
-console.log(new Pearson())
-
 export default Pearson;
