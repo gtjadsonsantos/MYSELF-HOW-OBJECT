@@ -77,3 +77,10 @@ Pearson {
   organizations: [ 'UNISEC LTDA', 'Beco-Castelo LTDA', 'UNIQUE' ]
 }
 ```
+
+
+## GETTING STARTED
+
+```bash
+  yarn add myself-how-object or npm install myself-how-object
+```
