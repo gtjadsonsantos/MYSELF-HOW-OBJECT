@@ -134,4 +134,5 @@ class Pearson {
     }
 }
 
+
 export default Pearson;
