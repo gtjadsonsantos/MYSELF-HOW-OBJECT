@@ -14,7 +14,9 @@ Pearson {
   location: {
     street: 'Almirante Carlos da Silveira Carneiro',
     number: 394,
-    zipcode: 88025350
+    zipcode: 88025350,
+    state: 'Santa Catarina',
+    city: 'Florianópolis'
   },
   platforms: [
     { name: 'Github', url: 'http://github.com/jadson179' },
