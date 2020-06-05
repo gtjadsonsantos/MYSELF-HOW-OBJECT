@@ -1,0 +1,15 @@
+{
+  "name": "jadson-how-object",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type":"module",
+  "license": "MIT",
+  "scripts": {
+    "build":"tsc index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
