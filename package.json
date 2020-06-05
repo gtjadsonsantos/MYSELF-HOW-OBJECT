@@ -1,8 +1,7 @@
 {
   "name": "jadson-how-object",
   "version": "1.0.0",
-  "main": "index.ts",
-  "type":"module",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "build":"tsc index.ts"
